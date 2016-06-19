@@ -30,3 +30,6 @@
 					i = 4	| 185530 |  4450   |
 					i = ...	|  ...	 |  ...    |
 							--------------------
+
+						X <=> km			Y <=> Price
+						M <=> 24 you can understand that with data.csv who contain all the value of our data set
