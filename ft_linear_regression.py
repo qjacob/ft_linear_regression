@@ -17,3 +17,4 @@
 #							  theta(1) - alpha * (1 / m) sum(m, i=1) (hypothesis(x(i)) - y(i)) . x(i)
 #
 #																	'alpha' is the "learning rate" (He must be not too small and not too big)
+
