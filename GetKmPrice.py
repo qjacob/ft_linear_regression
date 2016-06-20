@@ -2,7 +2,6 @@
 
 import string
 import re
-def GetInfo():
 mystr = open("data.csv")
 
 km = []
