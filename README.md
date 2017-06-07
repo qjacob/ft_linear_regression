@@ -13,6 +13,8 @@
 
 - 'x & y' are a value of our data set
 
+- x are our input value, y are output value
+
 - 'm' is the size of our data set
 
 - 'i' is the index of where we are in our data set
@@ -32,5 +34,5 @@
 							--------------------
 
 						X <=> km			Y <=> Price
-						M <=> 24 you can understand that with data.csv.
+						M <=> 24 you can understand that with data.csv
 						Who contain all the value of our data set
