@@ -4,7 +4,7 @@ from GetKmPrice import get_len_dataset, getPrice, getKm
 from GradientDescent import GradientDescent
 
 def main():
-	LearningRate = 0.4
+	LearningRate = 0.0001
 	theta0 = 0.
 	theta1 = 0.
 	price = []
