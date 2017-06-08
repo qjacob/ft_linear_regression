@@ -3,7 +3,7 @@
 # 	Theta1 = Theta1 - LearningRate * (1 / m) * Sum(Hypothesis(x_i) - y_i)
 # }
 
-from compute import SumTheta0, SumTheta1
+from tools import SumTheta0, SumTheta1
 import math
 import sys
 
