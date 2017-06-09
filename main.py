@@ -12,8 +12,7 @@ def main():
 	km = []
 	mileage = raw_input("Please enter a mileage: ")
 	try:
-		mileage = mileage[:-1]
-		float(mileage)
+		mileage = float(mileage)
 		m = get_len_dataset()
 		price = getPrice()
 		km = getKm()
@@ -24,7 +23,7 @@ def main():
 		print("theta1:")
 		print(theta1)
 		print("Result of hypothesis:")
-		print(hypothesis(theta0, theta1, float(mileage)))
+		print(hypothesis(theta0, theta1, mileage))
 	except ValueError as e:
 		print(e)
 		print("error: Please enter an integer.")
