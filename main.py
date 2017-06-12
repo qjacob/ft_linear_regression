@@ -1,7 +1,6 @@
 import sys, re, string, math
 from tools import hypothesis
-from GetKmPrice import get_len_dataset, getPrice, getKm
-from GradientDescent import GradientDescent
+from GetKmPrice import get_len_dataset
 
 def main():
 	LearningRate = 0.0001
@@ -14,16 +13,16 @@ def main():
 	try:
 		mileage = float(mileage)
 		m = get_len_dataset()
-		price = getPrice()
-		km = getKm()
-		(hypothesis(float(theta0), float(theta1), float(m)))
-		theta0, theta1 = (GradientDescent(float(theta0), float(theta1), float(LearningRate), float(LearningRate2), km, price, m))
-		print("theta0:")
-		print(theta0)
-		print("theta1:")
-		print(theta1)
-		print("Result of hypothesis:")
-		print(hypothesis(theta0, theta1, mileage))
+		try:
+			with open('theta_value_file', 'r') as f:
+				 value = f.readlines()
+				 index = value[0].index('=')
+				 theta0 = value[0][index+1:]
+				 theta1 = value[1][index+1:]
+		except Exception as e:
+			print("message: {}".format(e))
+		print("Result of linear function:")
+		print(hypothesis(float(theta0), float(theta1), mileage))
 	except ValueError as e:
 		print(e)
 		print("error: Please enter an integer.")
