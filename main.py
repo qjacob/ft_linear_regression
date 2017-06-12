@@ -21,7 +21,7 @@ def main():
 				 theta1 = value[1][index+1:]
 		except Exception as e:
 			print("message: {}".format(e))
-		print("Result of linear function:")
+		print("Estimate price:")
 		print(hypothesis(float(theta0), float(theta1), mileage))
 	except ValueError as e:
 		print(e)
