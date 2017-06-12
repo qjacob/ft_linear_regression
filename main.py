@@ -25,7 +25,7 @@ def main():
 		print(hypothesis(float(theta0), float(theta1), mileage))
 	except ValueError as e:
 		print(e)
-		print("error: Please enter an integer.")
+		print("error: Please enter a number.")
 		main()
 
 main()
