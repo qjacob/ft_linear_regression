@@ -40,3 +40,7 @@
 						X <=> km			Y <=> Price
 						M <=> 24 you can understand that with data.csv
 						Who contain all the value of our data set
+
+# View
+
+![GradientDescent represent](https://ibb.co/m67TQQ)
