@@ -1,5 +1,9 @@
 # ft_linear_regression
-42 machine learning project. (on going)
+42 machine learning project.
+
+# Goal
+1. Create a simple algorithm that will predict the value of a car by the KM parameters.
+2. Implement a linear regression.
 
 # formula that we need for this project
 
@@ -26,13 +30,17 @@
 							--------------------
 							|   km   |  Price  |
 							|--------|---------|
-					i = 1	| 240000 |  3650   |
-					i = 2	| 139800 |  3800   |
-					i = 3	| 150500 |  4400   |
-					i = 4	| 185530 |  4450   |
-					i = ...	|  ...	 |  ...    |
+						i = 1	| 240000 |  3650   |
+						i = 2	| 139800 |  3800   |
+						i = 3	| 150500 |  4400   |
+						i = 4	| 185530 |  4450   |
+						i = ...	|  ...	 |  ...    |
 							--------------------
 
 						X <=> km			Y <=> Price
 						M <=> 24 you can understand that with data.csv
 						Who contain all the value of our data set
+
+# View
+
+![GradientDescent represent](https://ibb.co/m67TQQ)
