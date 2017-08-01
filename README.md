@@ -1,5 +1,9 @@
 # ft_linear_regression
-42 machine learning project. (on going)
+42 machine learning project.
+
+# Goal
+1. Create a simple algorithm that will predict the value of a car by the KM parameters.
+2. Implement a linear regression.
 
 # formula that we need for this project
 
