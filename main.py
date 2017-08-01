@@ -1,6 +1,7 @@
 import sys, re, string, math
 from tools import hypothesis
 from GetKmPrice import get_len_dataset
+import matplotlib.pyplot as plt
 
 def main():
 	LearningRate = 0.0001
