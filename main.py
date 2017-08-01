@@ -10,7 +10,7 @@ def main():
 	theta1 = 0.
 	price = []
 	km = []
-	mileage = raw_input("Please enter a mileage: ")
+	mileage = input("Please enter a mileage: ")
 	try:
 		mileage = float(mileage)
 		m = get_len_dataset()
