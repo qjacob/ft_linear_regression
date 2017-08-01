@@ -43,4 +43,5 @@
 
 # View
 
-![GradientDescent represent](https://ibb.co/m67TQQ)
+Representation of GradientDescent:
+![GradientDescent represent](https://raw.githubusercontent.com/qjacob/ft_linear_regression/master/static/Screen%20Shot%202017-08-01%20at%207.58.25%20AM.png)
